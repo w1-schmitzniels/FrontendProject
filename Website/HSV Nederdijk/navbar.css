@@ -1,42 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /* The navigation bar */
 .container {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
+    background-color: #EDB848;
   }
   
   ul li {
     display: inline;
     text-align: center;
   }
-  
+.img
+{
+    height: 15%;
+    width: 9%;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+  .one
+{
+    margin-left: 15%;
+}
   a {
     display: inline-block;
-    width: 25%;
+    width: 14%;
     padding: .75rem 0;
     margin: 0;
     text-decoration: none;
     color: #333;
   }
-  
+  .one:hover ~ hr {
+    margin-left: 15%;
+    background: #065471;
+  }
   .two:hover ~ hr {
-    margin-left: 25%;
+    margin-left: 29%;
+      background: #065471;
   }
   
   .three:hover ~ hr {
-    margin-left: 50%;
+    margin-left: 43%;
+      background: #065471;
   }
   
   .four:hover ~ hr {
-    margin-left: 75%;
+    margin-left: 57%;
+      background: #065471;
   }
-  
+   .five:hover ~ hr {
+    margin-left: 71%;
+       background: #065471;
+  }
+ .six:hover ~ hr {
+    margin-left: 85%;
+     background: #065471;
+  }
   hr {
     height: .25rem;
-    width: 25%;
+    width: 14%;
     margin: 0;
-    background: tomato;
+    background: #EDB848;
     border: none;
     transition: .3s ease-in-out;
+    margin-left: 15%;
   }
 
 
