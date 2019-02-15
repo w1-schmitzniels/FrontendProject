@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/player.css">
     <title>Title</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('.container').addClass('blue');
+                $('a').addClass('yellow');
+                $('hr').addClass('yellowhr');
+                $('.img').addClass('small');
+                $('.img').removeClass('img');
+                $('li').addClass('li');
+            }
+            else
+            {
+                $('.container').removeClass('blue');
+                $('a').removeClass('yellow');
+                $('hr').removeClass('yellowhr');
+                $('.img').removeClass('small');
+                $('.img').addClass('img');
+                $('li').removeClass('li');
+            }
+        })
+    </script>
 </head>
 <body>
     <div class="container">
