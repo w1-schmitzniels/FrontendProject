@@ -11,6 +11,30 @@
     width: 100%;
     margin: 0 auto;
     background-color: #EDB848;
+    position: fixed;
+    top: 0;
+    transition: .3s ease-in-out;
+  }
+.container.blue {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #065471;
+    transition: .3s ease-in-out;
+  }
+
+.small
+{
+    height: 9%;
+    width: 6%;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: -2%;
+    transition: .3s ease-in-out;
+}
+.yellow {
+    color: #EDB848;
+    height: 40px;
+    transition: .3s ease-in-out;
   }
   
   ul li {
@@ -24,6 +48,7 @@
     position: absolute;
     margin-left: 2%;
     margin-top: -2%;
+    transition: .3s ease-in-out;
 }
   .one
 {
@@ -36,6 +61,8 @@
     margin: 0;
     text-decoration: none;
     color: #333;
+    transition: .3s ease-in-out;
+    height: 40px;
   }
   .one:hover ~ hr {
     margin-left: 15%;
@@ -72,7 +99,43 @@
     transition: .3s ease-in-out;
     margin-left: 15%;
   }
+    .yellowhr
+    {
+    height: .25rem;
+    width: 14%;
+    margin: 0;
+    background: #065471;
+    border: none;
+    transition: .3s ease-in-out;
+    margin-left: 15%;
+  }
 
+  .one:hover ~ .yellowhr {
+    margin-left: 15%;
+    background: #EDB848;
+  }
+  .two:hover ~ .yellowhr {
+    margin-left: 29%;
+      background: #EDB848;
+  }
+  
+  .three:hover ~ .yellowhr {
+    margin-left: 43%;
+      background: #EDB848;
+  }
+  
+  .four:hover ~ .yellowhr {
+    margin-left: 57%;
+      background: #EDB848;
+  }
+   .five:hover ~ .yellowhr {
+    margin-left: 71%;
+       background: #EDB848;
+  }
+ .six:hover ~ .yellowhr {
+    margin-left: 85%;
+     background: #EDB848;
+  }
 
 /* Main content */
 .main {
