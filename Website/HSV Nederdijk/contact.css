@@ -26,39 +26,11 @@ h1
     margin-bottom: 30px;
 }
 
-.button{
-  background:#065471;
-  color:#EDB848;
-  border:none;
-  position:relative;
-  height:40px;
-  font-size:1em;
-  padding:0 0.5em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-.button:hover{
-  background:#fff;
-  color:#065471;
-}
-.button:before,.button:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #065471;
-  transition:400ms ease all;
-}
-.button:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-.button:hover:before,.button:hover:after{
-  width:100%;
-  transition:800ms ease all;
+button
+{
+    height: 50px;
+    width: 110px;
+    background-color: #065471;
+    color: white;
+    border: solid black 2px;
 }
