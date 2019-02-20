@@ -1,0 +1,31 @@
+#news1
+{
+  margin-top:200px;
+  float: left;
+  border:1px solid black;
+  width:400px;
+  margin-left:100px;
+}
+#news1:hover
+{
+  color:red;
+  background-color:red;
+}
+#news2
+{
+  float: left;
+  margin-top:200px;
+  margin-left:100px;
+  border:1px solid black;
+  width: 450px;
+
+}
+#news3
+{
+  float: left;
+  margin-top:0px;
+  margin-left:100px;
+  border:1px solid black;
+  width: 450px;
+
+}

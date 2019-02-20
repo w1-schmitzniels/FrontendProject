@@ -3,7 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="nieuws.css">
     <title>Title</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('.container').addClass('blue');
+                $('a').addClass('yellow');
+                $('hr').addClass('yellowhr');
+                $('img').addClass('small');
+                $('img').removeClass('img');
+                $('li').addClass('li');
+            }
+            else
+            {
+                $('.container').removeClass('blue');
+                $('a').removeClass('yellow');
+                $('hr').removeClass('yellowhr');
+                $('img').removeClass('small');
+                $('img').addClass('img');
+                $('li').removeClass('li');
+            }
+        })
+    </script>
 </head>
 <body>
     <div class="container">
@@ -16,11 +40,32 @@
         --><li class="six"><a href="contact.html">Contact</a></li>
           <hr />
         </ul>
-        <img src="HSV/HSV_logo.png" class="img">
       </div>
+    <img src="HSV/HSV_logo.png" class="img">
 
 <div class="main">
-    <p>Some text some text some text some text..</p>
+
+    <p>
+
+    </p>
+</div>
+<div id="news1">
+  <h2>
+      16 Februari 2019<br>
+      Nieuwe hoofdtrainer voor de A1
+  </h2>
+</div>
+<div id="news2">
+  <h2>
+      20 Januari 2019<br>
+      Scheidsrechters hebben cursus gehaald.
+  </h2>
+</div>
+<div id="news3">
+  <h2>
+      18 Januari 2019<br>
+      Vrijwilligers voor kantine gezocht.
+  </h2>
 </div>
 </body>
 </html>
