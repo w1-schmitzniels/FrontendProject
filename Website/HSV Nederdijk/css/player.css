@@ -22,14 +22,11 @@
 
 /* Some left and right padding inside the container */
 .container {
-  
+
 }
 
 /* Clear floats */
 .container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .title {
