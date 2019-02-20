@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <title>Title</title>
 </head>
 <body>
@@ -20,7 +21,21 @@
       </div>
 
 <div class="main">
-    <p>Some text some text some text some text..</p>
+    <h1 id="contacteer">Contacteer ons</h1>
+    <form>
+        Aanhef:
+        <select name="Aanhef">
+            <option value="Meneer">Meneer</option>
+            <option value="Mevrouw">Mevrouw</option>
+            <option value="Overige">Overige</option>
+        </select><br>
+        <input type="text" placeholder="Naam" class="fill"><br>
+        <input type="text" placeholder="E-mailadres" class="fill"><br>
+        <input type="text" placeholder="Telefoonnummer" class="fill"><br>
+        <textarea rows="8" cols="41" placeholder="Stel hier uw vraag/opmerking."></textarea><br>
+        Aanmelden voor de nieuwsbrief? - <input type="checkbox" name="nieuwsbrief" value="ja"><br>
+        <button type="submit">Verzenden</button>
+    </form>
 </div>
 </body>
 </html>

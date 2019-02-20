@@ -1,0 +1,36 @@
+.fill
+{
+    width: 300px;
+    height: 30px;
+}
+#contacteer
+{
+    text-align: center;
+}
+input, select, textarea, button
+{
+    margin: 7px;
+}   
+
+.main
+{
+    text-align: center;
+}
+textarea
+{
+    resize: none;
+}
+h1
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+button
+{
+    height: 50px;
+    width: 110px;
+    background-color: #065471;
+    color: white;
+    border: solid black 2px;
+}
