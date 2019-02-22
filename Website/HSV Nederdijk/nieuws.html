@@ -4,44 +4,29 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" type="text/css" href="nieuws.css">
-    <title>Title</title>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript">
-        $(window).on('scroll', function(){
-            if($(window).scrollTop()){
-                $('.container').addClass('blue');
-                $('a').addClass('yellow');
-                $('hr').addClass('yellowhr');
-                $('img').addClass('small');
-                $('img').removeClass('img');
-                $('li').addClass('li');
-            }
-            else
-            {
-                $('.container').removeClass('blue');
-                $('a').removeClass('yellow');
-                $('hr').removeClass('yellowhr');
-                $('img').removeClass('small');
-                $('img').addClass('img');
-                $('li').removeClass('li');
-            }
-        })
-    </script>
+    <title>HSV Nederdijk</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <ul>
-          <li class="one"><a href="index.html">Home</a></li><!--
-       --><li class="two"><a href="nieuws.html">Nieuws</a></li><!--
-       --><li class="three"><a href="overons.html">Over ons</a></li><!--
-       --><li class="four"><a href="overzicht.html">Overzicht</a></li><!--
-       --><li class="five"><a href="loterij.html">Loterij</a></li><!--
-        --><li class="six"><a href="contact.html">Contact</a></li>
-          <hr />
-        </ul>
-      </div>
-    <img src="HSV/HSV_logo.png" class="img">
+
+    <div class="navbar">
+        <img id="logo" src="./HSV/HSV_logo_transparent.png">
+        <div class="ht">
+            <span id="hoofdtekst">HVS Nederdijk</span>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="menu">
+            <div class="menuitem"><a href="index.html">Home</a></div>
+            <div class="menuitem"><a href="nieuws.html">Nieuws</a></div>
+            <div class="menuitem"><a href="overzicht.html">Overzicht</a></div>
+            <div class="menuitem"><a href="overons.html">Overons</a></div>
+            <div class="menuitem"><a href="loterij.html">Loterij</a></div>
+            <div class="menuitem"><a href="contact.html">Contact</a></div>
+        </div>
+    </div>
+
 <div class="main">
 <table>
 <tr>
