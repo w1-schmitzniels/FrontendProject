@@ -39,6 +39,7 @@ td
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 padding: 1em;
+    background: white;
 }
 
 #news1:hover, #news2:hover, #news3:hover, #news4:hover {
