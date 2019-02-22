@@ -6,138 +6,57 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* The navigation bar */
-.container {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #EDB848;
-    position: fixed;
-    top: 0;
-    transition: .3s ease-in-out;
-  }
-.container.blue {
-    width: 100%;
-    margin: 0 auto;
+.navbar {
+    height: 100px;
     background-color: #065471;
-    transition: .3s ease-in-out;
-  }
+}
 
-.small
-{
-    height: 9%;
-    width: 6%;
-    position: fixed;
-    margin-left: 2%;
-    margin-top: -2%;
-    transition: .3s ease-in-out;
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 1%;
 }
-.yellow {
-    color: #EDB848;
-    height: 40px;
-    transition: .3s ease-in-out;
-  }
-  
-  ul li {
-    display: inline;
-    text-align: center;
-  }
-.img
-{
-    height: 15%;
-    width: 9%;
-    position: absolute;
-    margin-left: 2%;
-    margin-top: -2%;
-    transition: .3s ease-in-out;
+
+.menuitem {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
 }
-  .one
-{
-    margin-left: 15%;
-}
-  a {
+
+.menu {
     display: inline-block;
-    width: 14%;
-    padding: .75rem 0;
-    margin: 0;
+    height: 100%;
+    margin-left: -20px;
+}
+
+
+.menuitem a {
+    color: white;
+    padding: 5px;
     text-decoration: none;
-    color: #333;
-    transition: .3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menuitem a:hover {
+    color: #065471;
+}
+
+.nav {
     height: 40px;
-  }
-  .one:hover ~ hr {
-    margin-left: 15%;
-    background: #065471;
-  }
-  .two:hover ~ hr {
-    margin-left: 29%;
-      background: #065471;
-  }
-  
-  .three:hover ~ hr {
-    margin-left: 43%;
-      background: #065471;
-  }
-  
-  .four:hover ~ hr {
-    margin-left: 57%;
-      background: #065471;
-  }
-   .five:hover ~ hr {
-    margin-left: 71%;
-       background: #065471;
-  }
- .six:hover ~ hr {
-    margin-left: 85%;
-     background: #065471;
-  }
-  hr {
-    height: .25rem;
-    width: 14%;
-    margin: 0;
-    background: #EDB848;
-    border: none;
-    transition: .3s ease-in-out;
-    margin-left: 15%;
-  }
-    .yellowhr
-    {
-    height: .25rem;
-    width: 14%;
-    margin: 0;
-    background: #065471;
-    border: none;
-    transition: .3s ease-in-out;
-    margin-left: 15%;
-  }
+    background-color: #EDB848;
+    display: block;
+}
 
-  .one:hover ~ .yellowhr {
-    margin-left: 15%;
-    background: #EDB848;
-  }
-  .two:hover ~ .yellowhr {
-    margin-left: 29%;
-      background: #EDB848;
-  }
-  
-  .three:hover ~ .yellowhr {
-    margin-left: 43%;
-      background: #EDB848;
-  }
-  
-  .four:hover ~ .yellowhr {
-    margin-left: 57%;
-      background: #EDB848;
-  }
-   .five:hover ~ .yellowhr {
-    margin-left: 71%;
-       background: #EDB848;
-  }
- .six:hover ~ .yellowhr {
-    margin-left: 85%;
-     background: #EDB848;
-  }
+#hoofdtekst {
+    color: #EDB848;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
 
-/* Main content */
-.main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+.ht {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    margin-left: 50px;
 }
