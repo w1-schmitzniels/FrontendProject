@@ -60,3 +60,8 @@
     top: 30px;
     margin-left: 50px;
 }
+
+body
+{
+    background-image: url(Images/background.jpg);
+}
