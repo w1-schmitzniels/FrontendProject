@@ -1,3 +1,7 @@
+body
+{
+    background-image:;
+}
 .fill
 {
     width: 300px;
@@ -16,13 +20,12 @@ input, select, textarea, button
 {
     text-align: center;
 }
-textarea
+textarea    
 {
     resize: none;
 }
 h1
 {
-    margin-top: 60px;
     margin-bottom: 30px;
 }
 
