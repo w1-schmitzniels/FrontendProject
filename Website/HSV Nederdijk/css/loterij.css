@@ -57,7 +57,7 @@
   right:0;
   height:2px;
   width:0;
-  background: #1AAB8A;
+  background: #065471;
   transition:400ms ease all;
 }
 .button:after{
@@ -70,3 +70,4 @@
   width:100%;
   transition:800ms ease all;
 }
+
