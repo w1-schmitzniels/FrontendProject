@@ -60,4 +60,16 @@
     top: 30px;
     margin-left: 50px;
 }
-
+.c
+{
+  position: relative;
+  text-align: center;
+  color: black;
+};
+#centered
+{
+  position: absolute;
+ top: -10%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
