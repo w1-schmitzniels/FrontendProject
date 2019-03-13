@@ -83,21 +83,23 @@ padding: 1em;
   width:100%;
   transition:800ms ease all;
 }
-@media screen and (max-width: 800px) {
+@media only screen 
+and (min-device-width : 375px) 
+    and (max-device-width : 667px) {
   #news1,#news3,#news4 {
-    margin-left:-500px; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-left:-; /* The width is 100%, when the viewport is 800px or smaller */
     width:180px;
       font-size:12px;
   }
     #news2
     {
-        margin-left:-400px;
+        margin-left:-;
         width:180px;
         font-size:12px;
     }
     #news4
     {
-        margin-left:-400px;
+        margin-left:-;
         font-size:12px;
     }
 }
