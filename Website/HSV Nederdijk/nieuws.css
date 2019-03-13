@@ -8,6 +8,7 @@
 table
 {
     margin-top: 5em;
+    margin-right:200px;
     grid-column: 4/8;
     width: 100%;
 }
@@ -17,8 +18,9 @@ td
 }
 #news1
 {
-  float: left;
+  
   width:450px;
+  margin-right:20%;
 }
 #news2
 {
@@ -80,4 +82,22 @@ padding: 1em;
 .button:hover:before,.button:hover:after{
   width:100%;
   transition:800ms ease all;
+}
+@media screen and (max-width: 800px) {
+  #news1,#news3,#news4 {
+    margin-left:-300px; /* The width is 100%, when the viewport is 800px or smaller */
+    width:180px;
+      font-size:12px;
+  }
+    #news2
+    {
+        margin-left:-230px;
+        width:180px;
+        font-size:12px;
+    }
+    #news4
+    {
+        margin-left:-230px;
+        font-size:12px;
+    }
 }
