@@ -73,8 +73,8 @@
  left: 50%;
  transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 500px) {
-  .menu-item {
+@media screen and (max-width: 800px) {
+  .menu {
     float: none;
     display: block;
     text-align: left;

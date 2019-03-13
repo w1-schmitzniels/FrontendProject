@@ -85,19 +85,19 @@ padding: 1em;
 }
 @media screen and (max-width: 800px) {
   #news1,#news3,#news4 {
-    margin-left:-300px; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-left:-500px; /* The width is 100%, when the viewport is 800px or smaller */
     width:180px;
       font-size:12px;
   }
     #news2
     {
-        margin-left:-230px;
+        margin-left:-400px;
         width:180px;
         font-size:12px;
     }
     #news4
     {
-        margin-left:-230px;
+        margin-left:-400px;
         font-size:12px;
     }
 }
