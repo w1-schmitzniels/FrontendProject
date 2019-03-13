@@ -74,3 +74,18 @@ li
 {
     list-style-type: none;
 }
+@media screen and (max-width: 800px) {
+    .inschrijven
+    {
+        margin-left:-250px;
+    }
+    .winnaars
+    {
+        margin-left:-650px;
+        margin-top:200px;
+    }
+    #loterij
+    {
+        margin-left:-1000px;
+    }
+}
