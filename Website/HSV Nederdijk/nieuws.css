@@ -88,18 +88,19 @@ and (min-device-width : 375px)
     and (max-device-width : 667px) {
   #news1,#news3,#news4 {
     margin-left:-150px; /* The width is 100%, when the viewport is 800px or smaller */
-    width:180px;
-      font-size:12px;
+    width:300px;
+      font-size:20px;
   }
     #news2
     {
-        margin-left:-;
-        width:180px;
-        font-size:12px;
+        margin-left:;
+        width:300px;
+        font-size:20px;
     }
     #news4
     {
         margin-left:-10px;
-        font-size:12px;
+        width:300px;
+        font-size:20px;
     }
 }
