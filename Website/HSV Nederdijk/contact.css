@@ -13,6 +13,12 @@ input, select, textarea, button
     margin: 7px;
 }   
 
+.fill
+{
+    width: 25%;
+    height: 30px;
+}
+
 .main
 {
     text-align: center;
@@ -20,10 +26,11 @@ input, select, textarea, button
 textarea    
 {
     resize: none;
+    width: 25%;
 }
 h1
 {
-    margin-bottom: 30px;
+    margin-bottom: 1%;
 }
 
 .button{
