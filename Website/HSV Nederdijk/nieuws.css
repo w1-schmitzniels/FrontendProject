@@ -83,24 +83,22 @@ padding: 1em;
   width:100%;
   transition:800ms ease all;
 }
-@media only screen 
-and (min-device-width : 375px) 
-    and (max-device-width : 667px) {
+@media screen and (max-width: 800px) {
   #news1,#news3,#news4 {
-    margin-left:-150px; /* The width is 100%, when the viewport is 800px or smaller */
-    width:300px;
-      font-size:20px;
+    margin-left:-300px; /* The width is 100%, when the viewport is 800px or smaller */
+    width:180px;
+      font-size:12px;
   }
     #news2
     {
-        margin-left:;
-        width:300px;
-        font-size:20px;
+        margin-left:-150px;;
+        width:180px;
+        font-size:12px;
     }
     #news4
     {
-        margin-left:-10px;
-        width:300px;
-        font-size:20px;
+        margin-left:-150px;
+        width:180px;
+        font-size:12px;
     }
 }

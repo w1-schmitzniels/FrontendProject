@@ -74,22 +74,20 @@ li
 {
     list-style-type: none;
 }
-@media only screen 
-and (min-device-width : 375px) 
-    and (max-device-width : 667px) {
+@media screen and (max-width: 800px) {
     .inschrijven
     {
-        margin-left:-20px;
+        margin-left:-200px;
         margin-top:-100px;
     }
     .winnaars
     {
-        margin-left:-420px;
+        margin-left:-600px;
         margin-top:100px;
     }
     #loterij
     {
-        margin-left:-500px;
+        margin-left:-1000px;
         margin-top:-100px;
     }
 }
