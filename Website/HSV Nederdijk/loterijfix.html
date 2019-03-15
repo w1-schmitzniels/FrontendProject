@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="navbar.css">
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="loterijfix.css">
     <title>HSV Nederdijk</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -26,28 +26,34 @@
             <div class="menuitem"><a href="contact.html">Contact</a></div>
         </div>
     </div>
-
 <div class="main">
-<head>
-    <br><br>
-    <h1 id="contacteer">Contacteer ons</h1>
-    <form>
-        Aanhef:
-        <select name="Aanhef">
-            <option value="Meneer">Meneer</option>
-            <option value="Mevrouw">Mevrouw</option>
-            <option value="Overige">Overige</option>
-        </select><br>
-        <input type="text" placeholder="Naam" class="fill"><br>
-        <input type="text" placeholder="E-mailadres" class="fill"><br>
-        <input type="text" placeholder="Telefoonnummer" class="fill"><br>
-        <textarea rows="8" cols="41" placeholder="Stel hier uw vraag/opmerking."></textarea><br>
-        Aanmelden voor de nieuwsbrief? - <input type="checkbox" name="nieuwsbrief" value="ja"><br>
-        <button type="submit" class="button">Verzenden</button>
-    </form>
-    <p>
-    </p>
-</head>
+  <div class="inschrijven">
+      <b>Inschrijven voor de Loterij</b>
+  <form><br>
+    <table>
+    <tr>
+        <td>Voornaam:</td><td><input type="text" name="Voornaam" placeholder="Voornaam" id="voornaam"></td>
+    </tr>
+    <tr>
+        <td>Lotnummer:</td><td><input type="text" name="Lotnummer" placeholder="Lotnummer"></td>
+    </tr>
+    </table><br>
+<input type="submit" value="Verzenden" class="button" onclick="myFunction()">
+</form>
+  </div>
+  <div class="winnaars">
+  <h2>
+      Onze laatste winnaars:
+  </h2>
+  <br>
+  <ul>
+      <li>
+          Jan Peters: Mini Cooper S ter waarde van 25.000 euro
+      </li><br>
+      <li>
+          Guus Jansen: Jumbo Waardebon t.w.v. 50 euro
+      </li>
+  </ul>
+
+  </div>
 </div>
-</body>
-</html>
