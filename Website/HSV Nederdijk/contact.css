@@ -69,3 +69,15 @@ h1
   width:100%;
   transition:800ms ease all;
 }
+
+@media screen and (max-width: 800px)
+{
+    .fill
+    {
+        width: 400px;  
+    }
+    textarea
+    {
+        width: 400px;
+    }
+}
